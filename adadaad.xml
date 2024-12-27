@@ -1,0 +1,1102 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GroupAddress-Export xmlns="http://knx.org/xml/ga-export/01">
+  <!--GroupRange:-->
+  <!--  @Name: The name of the group range (1 to 255 characters)-->
+  <!--  @RangeStart: The inclusive start address of the range as specified in free group address style-->
+  <!--  @RangeEnd: The inclusive end address of the range as specified in free group address style-->
+  <!--  @Description: The group ranges' description if available-->
+  <!--GroupAddress:-->
+  <!--  @Name: The name of the group range (1 to 255 characters)-->
+  <!--  @Address: The address as specified either in three-level (1/2/3 or two-level (1/3) or numeric (12345) or hexadecimal ($1Fa3 or 0x1fa3) group address value-->
+  <!--  @Central: True if the group address has the Central flag set-->
+  <!--  @Unfiltered: True if the group address has the Unfiltered flag set-->
+  <!--  @Description: The group addresses' description if available-->
+  <!--  @DTPs: The Data Point Types associated with the group address if available, comma separated, e.g. '1.001, 1.002'-->
+  <GroupRange Name="Command on/off" RangeStart="1" RangeEnd="255">
+    <GroupAddress Name="Command on/off C1.1" Address="0/0/1" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C1.2 Люстра" Address="0/0/2" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C1.3" Address="0/0/3" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C2.1" Address="0/0/4" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C2.2" Address="0/0/5" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C3.1" Address="0/0/6" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C3.1 LED" Address="0/0/7" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C3.2" Address="0/0/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C4.1" Address="0/0/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C4.1 LED" Address="0/0/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C4.2 Люстра" Address="0/0/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C4.3" Address="0/0/12" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C4.4" Address="0/0/13" Description="Спальня 2.3_Подсветка штор" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C5.1" Address="0/0/14" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C5.1 Track" Address="0/0/15" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C5.1 LED" Address="0/0/16" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C5.2 LED" Address="0/0/17" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C5.2" Address="0/0/18" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C5.3" Address="0/0/19" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C6.1" Address="0/0/20" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C6.1 LED" Address="0/0/21" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C6.2" Address="0/0/22" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C7.1" Address="0/0/23" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C7.1 LED" Address="0/0/24" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C7.2" Address="0/0/25" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C7.3" Address="0/0/26" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C7.4" Address="0/0/27" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C7.5" Address="0/0/28" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C8.1 Светильники" Address="0/0/29" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C8.1 LED подсветка потолка" Address="0/0/30" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C14.1 LED" Address="0/0/31" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C8.2" Address="0/0/32" Description="PS2.2" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C8.3 не используеться" Address="0/0/33" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C8.4" Address="0/0/34" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C8.5 подсветка полок" Address="0/0/35" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C9.1" Address="0/0/36" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C9.1 LED" Address="0/0/37" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C10.1" Address="0/0/38" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C10.2" Address="0/0/39" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C11.1" Address="0/0/40" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C11.1 LED" Address="0/0/41" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C11.2" Address="0/0/42" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C12.1 потолочный светильник" Address="0/0/43" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C12.1 LED Закарнизная подсветка" Address="0/0/44" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C12.2 Люстра" Address="0/0/45" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C12.3 бра" Address="0/0/46" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C12.4 подсветка стены" Address="0/0/47" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C12.5 подствтка кровати" Address="0/0/48" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C13.1" Address="0/0/49" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C13.2" Address="0/0/50" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C14.1 Точки зона душа" Address="0/0/51" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C14.1 LED" Address="0/0/52" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C14.2 Люстра" Address="0/0/53" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C14.3 Панно" Address="0/0/54" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C14.4 Бра" Address="0/0/55" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C14.5 Зеркало?" Address="0/0/56" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C14.6 Подсветка полок" Address="0/0/57" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C15.1" Address="0/0/58" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C15.1 LED" Address="0/0/59" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C15.2" Address="0/0/60" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C15.3" Address="0/0/61" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C15.4 Подсветка зеркала" Address="0/0/62" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C16.1" Address="0/0/63" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off УР5.1" Address="0/0/64" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off УР5.2" Address="0/0/65" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off УР5.3" Address="0/0/66" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off УР5.4" Address="0/0/67" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off УР7.1" Address="0/0/68" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off УР7.2" Address="0/0/69" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off УР7.3" Address="0/0/70" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off УР9.1" Address="0/0/71" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off УР9.2" Address="0/0/72" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off УР11.1" Address="0/0/73" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off УР11.2" Address="0/0/74" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off УР12.1 левый светильник" Address="0/0/75" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off УР12.2 правый светильник" Address="0/0/76" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C17" Address="0/0/77" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C18" Address="0/0/78" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Воронка ВС1,2,3,4" Address="0/0/79" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Воронка ВС5" Address="0/0/80" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C1.1 LED" Address="0/0/81" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C12.2 LED Подсветка переметра" Address="0/0/82" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C16.2+16.1" Address="0/0/83" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare LED5.4" Address="0/0/84" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare LED5.3" Address="0/0/85" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/0/86" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/0/87" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/0/88" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/0/89" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/0/90" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/0/91" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/0/92" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/0/93" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/0/94" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/0/95" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/0/96" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/0/97" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/0/98" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/0/99" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C13.1+C13.2" Address="0/0/100" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C16.2+16.1" Address="0/0/101" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C5.1 Track" Address="0/0/102" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C16.2" Address="0/0/103" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C15.3 + 15.4" Address="0/0/104" DPTs="DPST-1-1" />
+  </GroupRange>
+  <GroupRange Name="Feedback on/off" RangeStart="256" RangeEnd="511">
+    <GroupAddress Name="Feedback on/off C1.1" Address="0/1/0" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C1.2 Люстра" Address="0/1/1" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C1.3" Address="0/1/2" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C2.1" Address="0/1/3" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C2.2" Address="0/1/4" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C3.1" Address="0/1/5" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C3.1 LED" Address="0/1/6" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C3.2" Address="0/1/7" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C4.1" Address="0/1/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C4.1 LED" Address="0/1/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C4.2 Люстра" Address="0/1/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C4.3" Address="0/1/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C4.4" Address="0/1/12" Description="Спальня 2.3_Подсветка штор" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C5.1" Address="0/1/13" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C5.1 Track" Address="0/1/14" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C5.1 LED" Address="0/1/15" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C5.2 LED" Address="0/1/16" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C5.2" Address="0/1/17" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C5.3" Address="0/1/18" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C6.1" Address="0/1/19" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C6.1 LED" Address="0/1/20" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C6.2" Address="0/1/21" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C7.1" Address="0/1/22" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C7.1 LED" Address="0/1/23" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C7.2" Address="0/1/24" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C7.3" Address="0/1/25" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C7.4" Address="0/1/26" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C7.5" Address="0/1/27" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C8.1" Address="0/1/28" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C8.1 LED" Address="0/1/29" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C14.1 LED" Address="0/1/30" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C8.2" Address="0/1/31" Description="PS2.2" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C8.3" Address="0/1/32" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C8.4" Address="0/1/33" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C8.5" Address="0/1/34" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C9.1" Address="0/1/35" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C9.1 LED" Address="0/1/36" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C10.1" Address="0/1/37" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C10.2" Address="0/1/38" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C11.1" Address="0/1/39" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C11.1 LED" Address="0/1/40" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C11.2" Address="0/1/41" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C12.1" Address="0/1/42" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C12.1 LED" Address="0/1/43" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C12.2" Address="0/1/44" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C12.3" Address="0/1/45" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C12.4" Address="0/1/46" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C12.5" Address="0/1/47" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C13.1" Address="0/1/48" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C13.2" Address="0/1/49" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C14.1" Address="0/1/50" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C14.1 LED" Address="0/1/51" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C14.2" Address="0/1/52" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C14.3" Address="0/1/53" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C14.4" Address="0/1/54" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C14.5" Address="0/1/55" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C14.6" Address="0/1/56" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C15.1" Address="0/1/57" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C15.1 LED" Address="0/1/58" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C15.2" Address="0/1/59" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C15.3" Address="0/1/60" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C15.4" Address="0/1/61" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C16.1" Address="0/1/62" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off УР5.1" Address="0/1/63" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off УР5.2" Address="0/1/64" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off УР5.3" Address="0/1/65" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off УР5.4" Address="0/1/66" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off УР7.1" Address="0/1/67" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off УР7.2" Address="0/1/68" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off УР7.3" Address="0/1/69" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off УР9.1" Address="0/1/70" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off УР9.2" Address="0/1/71" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off УР11.1" Address="0/1/72" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off УР11.2" Address="0/1/73" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off УР12.1" Address="0/1/74" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off УР12.2" Address="0/1/75" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C17" Address="0/1/76" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C18" Address="0/1/77" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Воронка ВС1,2,3,4" Address="0/1/78" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Воронка ВС5" Address="0/1/79" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C1.1 LED" Address="0/1/80" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C12.2 LED" Address="0/1/81" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare LED5.4" Address="0/1/82" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare  LED5.3" Address="0/1/83" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/84" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/85" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/86" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/87" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/88" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/89" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/90" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/91" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/92" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/93" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/94" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/95" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/96" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/97" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/98" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off Spare" Address="0/1/99" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off C16.2" Address="0/1/101" DPTs="DPST-1-1" />
+  </GroupRange>
+  <GroupRange Name="Dimming command" RangeStart="512" RangeEnd="767" />
+  <GroupRange Name="Command value" RangeStart="768" RangeEnd="1023">
+    <GroupAddress Name="Command value C1.1" Address="0/3/0" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C1.2 Люстра" Address="0/3/1" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C1.3" Address="0/3/2" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C2.1" Address="0/3/3" Unfiltered="true" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C2.2" Address="0/3/4" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C3.1" Address="0/3/5" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C3.1 LED" Address="0/3/6" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C3.2" Address="0/3/7" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C4.1" Address="0/3/8" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C4.1 LED" Address="0/3/9" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C4.2 Люстра" Address="0/3/10" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C4.3" Address="0/3/11" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C4.4" Address="0/3/12" Description="Спальня 2.3_Подсветка штор" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C5.1" Address="0/3/13" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C5.1 Track" Address="0/3/14" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C5.1 LED" Address="0/3/15" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C5.2 LED" Address="0/3/16" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C5.2" Address="0/3/17" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C5.3" Address="0/3/18" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C6.1" Address="0/3/19" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C6.1 LED" Address="0/3/20" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C6.2" Address="0/3/21" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C7.1" Address="0/3/22" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C7.1 LED" Address="0/3/23" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C7.2" Address="0/3/24" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C7.3" Address="0/3/25" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C7.4" Address="0/3/26" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C7.5" Address="0/3/27" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C8.1" Address="0/3/28" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C8.1 LED" Address="0/3/29" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/30" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C8.2" Address="0/3/31" Description="PS2.2" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C8.3" Address="0/3/32" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C8.4" Address="0/3/33" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C8.5" Address="0/3/34" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C9.1" Address="0/3/35" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C9.1 LED" Address="0/3/36" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C10.1" Address="0/3/37" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C10.2" Address="0/3/38" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C11.1" Address="0/3/39" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C11.1 LED" Address="0/3/40" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C11.2" Address="0/3/41" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C12.1" Address="0/3/42" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C12.1 LED" Address="0/3/43" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C12.2" Address="0/3/44" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C12.3" Address="0/3/45" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C12.4" Address="0/3/46" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C12.5" Address="0/3/47" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C13.1" Address="0/3/48" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C13.2" Address="0/3/49" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C14.1" Address="0/3/50" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C14.1 LED" Address="0/3/51" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C14.2" Address="0/3/52" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C14.3" Address="0/3/53" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C14.4" Address="0/3/54" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C14.5" Address="0/3/55" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C14.6" Address="0/3/56" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C15.1" Address="0/3/57" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C15.1 LED" Address="0/3/58" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C15.2" Address="0/3/59" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C15.3" Address="0/3/60" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C15.4" Address="0/3/61" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C16.1" Address="0/3/62" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C1.1 LED" Address="0/3/76" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value C12.2 LED" Address="0/3/77" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare LED5.4" Address="0/3/78" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare LED5.3" Address="0/3/79" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/80" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/81" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/82" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/83" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/84" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/85" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/86" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/87" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/88" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/89" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/90" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/91" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/92" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/93" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/94" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/95" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/96" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/97" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/98" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command on/off Spare" Address="0/3/99" DPTs="DPST-5-1" />
+  </GroupRange>
+  <GroupRange Name="Feedback value" RangeStart="1024" RangeEnd="1279">
+    <GroupAddress Name="Feedback value C1.1" Address="0/4/0" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C1.2 Люстра" Address="0/4/1" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C1.3" Address="0/4/2" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C2.1" Address="0/4/3" Unfiltered="true" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C2.2" Address="0/4/4" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C3.1" Address="0/4/5" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C3.1 LED" Address="0/4/6" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C3.2" Address="0/4/7" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C4.1" Address="0/4/8" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C4.1 LED" Address="0/4/9" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C4.2 Люстра" Address="0/4/10" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C4.3" Address="0/4/11" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C4.4" Address="0/4/12" Description="Спальня 2.3_Подсветка штор" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C5.1" Address="0/4/13" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C5.1 Track" Address="0/4/14" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C5.1 LED" Address="0/4/15" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C5.2 LED" Address="0/4/16" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C5.2" Address="0/4/17" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C5.3" Address="0/4/18" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C6.1" Address="0/4/19" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C6.1 LED" Address="0/4/20" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C6.2" Address="0/4/21" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C7.1" Address="0/4/22" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C7.1 LED" Address="0/4/23" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C7.2" Address="0/4/24" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C7.3" Address="0/4/25" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C7.4" Address="0/4/26" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C7.5" Address="0/4/27" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C8.1" Address="0/4/28" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C8.1 LED" Address="0/4/29" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C14.1 LED" Address="0/4/30" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C8.2" Address="0/4/31" Description="PS2.2" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C8.3" Address="0/4/32" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C8.4" Address="0/4/33" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C8.5" Address="0/4/34" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C9.1" Address="0/4/35" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C9.1 LED" Address="0/4/36" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C10.1" Address="0/4/37" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C10.2" Address="0/4/38" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C11.1" Address="0/4/39" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C11.1 LED" Address="0/4/40" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C11.2" Address="0/4/41" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C12.1" Address="0/4/42" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C12.1 LED" Address="0/4/43" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C12.2" Address="0/4/44" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C12.3" Address="0/4/45" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C12.4" Address="0/4/46" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C12.5" Address="0/4/47" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C13.1" Address="0/4/48" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C13.2" Address="0/4/49" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C14.1" Address="0/4/50" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C14.1 LED" Address="0/4/51" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C14.2" Address="0/4/52" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C14.3" Address="0/4/53" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C14.4" Address="0/4/54" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C14.5" Address="0/4/55" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C14.6" Address="0/4/56" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C15.1" Address="0/4/57" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C15.1 LED" Address="0/4/58" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C15.2" Address="0/4/59" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C15.3" Address="0/4/60" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C15.4" Address="0/4/61" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C16.1" Address="0/4/62" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C1.1 LED" Address="0/4/63" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value C12.2 LED" Address="0/4/64" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare LED5.4" Address="0/4/65" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare LED5.3" Address="0/4/66" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/67" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/68" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/69" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/70" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/71" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/72" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/73" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/74" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/75" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/76" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/77" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/78" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/79" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/80" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/81" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/82" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/83" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/84" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/85" DPTs="DPST-5-1" />
+    <GroupAddress Name="Feedback value Spare" Address="0/4/86" DPTs="DPST-5-1" />
+  </GroupRange>
+  <GroupRange Name="Scenes" RangeStart="1280" RangeEnd="1535">
+    <GroupAddress Name="Dali 1 Scenes 1* Гостиная (5)" Address="0/5/0" DPTs="DPST-17-1" />
+    <GroupAddress Name="Dali 1 Scenes 2* Кухня (4)" Address="0/5/1" DPTs="DPST-17-1" />
+    <GroupAddress Name="Dali 2 Scenes 1* Спальня Наринэ (7)" Address="0/5/2" DPTs="DPST-18-1" />
+    <GroupAddress Name="Dali 2 Scenes 2* Спальня Эрика (9)" Address="0/5/3" DPTs="DPST-17-1" />
+    <GroupAddress Name="Dali 3 Scenes 1* Спальня Артёма (11)" Address="0/5/4" DPTs="DPST-17-1" />
+    <GroupAddress Name="Dali 3 Scenes 2* Мастер спальня (12)" Address="0/5/5" DPTs="DPST-17-1" />
+    <GroupAddress Name="Dali 1 Scenes 31 Гостевой СУ(3) save" Address="0/5/6" DPTs="DPST-17-1" />
+    <GroupAddress Name="Dali 1 Scenes 33 Гардероб при входе(2) save" Address="0/5/7" DPTs="DPST-17-1" />
+    <GroupAddress Name="Dali 3 Scenes Мастер спальня Night swich" Address="0/5/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="Dali 2 Scenes 49-50 Гардероб(10) save" Address="0/5/9" DPTs="DPST-17-1" />
+    <GroupAddress Name="Dali 2 Scenes 40,41,42 Санузел дочери (8) save" Address="0/5/10" DPTs="DPST-17-1" />
+    <GroupAddress Name="Dali 3 Scenes 54-43-44 Санузел сыновей(15) save" Address="0/5/11" DPTs="DPST-17-1" />
+    <GroupAddress Name="Dali 3 Scenes 24-45-46 Мастер санузел(14) save" Address="0/5/12" DPTs="DPST-17-1" />
+    <GroupAddress Name="Dali 3 Scenes 47 Гардероб(13) save" Address="0/5/13" DPTs="DPST-17-1" />
+    <GroupAddress Name="Dali 2 Scenes 51 52 53 Коридор(6) save" Address="0/5/14" DPTs="DPST-17-1" />
+    <GroupAddress Name="Dali 3 Scenes 53 Постирочная(16) save" Address="0/5/15" DPTs="DPST-17-1" />
+    <GroupAddress Name="Dali 3 Scenes Спальня Артёма Night switch" Address="0/5/16" DPTs="DPST-1-1" />
+    <GroupAddress Name="Dali 2 Scenes Спальня Эрика Night switch" Address="0/5/17" DPTs="DPST-1-1" />
+  </GroupRange>
+  <GroupRange Name="United Command on/off" RangeStart="1536" RangeEnd="1791">
+    <GroupAddress Name="Night Living Room" Address="0/6/0" DPTs="DPST-1-1" />
+    <GroupAddress Name="NigHt Guest Room" Address="0/6/1" DPTs="DPT-1" />
+    <GroupAddress Name="NigHt Laundry" Address="0/6/2" />
+    <GroupAddress Name="NigHt Guest SU" Address="0/6/3" />
+    <GroupAddress Name="Night Master Bedroom" Address="0/6/4" DPTs="DPST-1-1" />
+    <GroupAddress Name="Night Hall" Address="0/6/5" DPTs="DPST-1-1" />
+    <GroupAddress Name="Night Bedroom" Address="0/6/6" DPTs="DPST-1-1" />
+    <GroupAddress Name="master wc " Address="0/6/7" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C14.1+14.1LED" Address="0/6/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C14.1+14.1LED+14.2+14.3+14.4+14.5+14.6" Address="0/6/9" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C14.1+14.2+14.3+14.4+14.5+14.6" Address="0/6/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C10.1+10.2" Address="0/6/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C6.1+6.1LED+6.2" Address="0/6/12" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C6.2+6.1LED" Address="0/6/13" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C3.1 + LED+3.2" Address="0/6/14" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C15.1+15.1LED+15.2+15.3+15.4" Address="0/6/15" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C8.1+8.1LED+8.2+8.3" Address="0/6/16" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C1.1+1.2+1.3" Address="0/6/101" DPTs="DPT-1" />
+    <GroupAddress Name="Command on/off C2.1 + 2.2" Address="0/6/102" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C3.1 LED" Address="0/6/103" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C12.1,12.2,12.3,12.4,12.5" Address="0/6/104" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C8.1+8.2+8.3+8.4+8.5" Address="0/6/105" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C10.1+10.2" Address="0/6/106" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command on/off C13.1+13.2" Address="0/6/107" DPTs="DPST-1-1" />
+  </GroupRange>
+  <GroupRange Name="United value command" RangeStart="1792" RangeEnd="2047">
+    <GroupAddress Name="Command value C1.1+LED1.1" Address="0/7/0" DPTs="DPST-5-1" />
+  </GroupRange>
+  <GroupRange Name="Individual commands" RangeStart="2048" RangeEnd="2303">
+    <GroupAddress Name="Long Ш4.1 Кухня" Address="1/0/0" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш4.1 Кухня" Address="1/0/1" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Ш4.2 Кухня" Address="1/0/2" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш4.2 Кухня" Address="1/0/3" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Ш5.1 Гостиная" Address="1/0/4" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш5.1 Гостиная" Address="1/0/5" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Ш5.2 Гостиная" Address="1/0/6" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш5.2 Гостиная" Address="1/0/7" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Ш5.3 Гостиная" Address="1/0/8" DPTs="DPST-1-7" />
+    <GroupAddress Name="Shor Ш5.3 Гостиная" Address="1/0/9" DPTs="DPST-1-10" />
+    <GroupAddress Name="Long Ш5.4 Гостиная" Address="1/0/10" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш5.4 Гостиная" Address="1/0/11" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Ш5.5 Гостиная" Address="1/0/12" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш5.5 Гостиная" Address="1/0/13" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Ш7.1 Спальня дочери" Address="1/0/14" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш7.1 Спальня дочери" Address="1/0/15" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Ш9.1 Спальня старшего сына" Address="1/0/16" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш9.1 Спальня старшего сына" Address="1/0/17" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Ш10.1 Гардеробная сыновей" Address="1/0/18" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш10.1 Гардеробная сыновей" Address="1/0/19" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Ш11.1 Спальня младшего сына" Address="1/0/20" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш11.1 Спальня младшего сына" Address="1/0/21" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Ш11.2 Спальня младшего сына" Address="1/0/22" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш11.2 Спальня младшего сына" Address="1/0/23" DPTs="DPST-1-10" />
+    <GroupAddress Name="Long Ш12.1 Мастер спальня" Address="1/0/24" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш12.1 Мастер спальня" Address="1/0/25" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Ш12.3 Мастер спальня" Address="1/0/26" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш12.3 Мастер спальня" Address="1/0/27" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Ш12.2 Мастер спальня" Address="1/0/28" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш12.2 Мастер спальня" Address="1/0/29" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Ш12.4 Мастер спальня" Address="1/0/30" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш12.4 Мастер спальня" Address="1/0/31" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Ш13.1 Мастер спальня" Address="1/0/32" DPTs="DPST-1-8" />
+    <GroupAddress Name="Shor Ш13.1 Мастер спальня" Address="1/0/33" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Резерв_2" Address="1/0/34" DPTs="DPST-1-8" />
+    <GroupAddress Name="Short Резерв_2" Address="1/0/35" DPTs="DPST-1-10" />
+    <GroupAddress Name="Long Резерв_3" Address="1/0/36" DPTs="DPST-1-8" />
+    <GroupAddress Name="Short Резерв_3" Address="1/0/37" DPTs="DPST-1-10" />
+  </GroupRange>
+  <GroupRange Name="United command" RangeStart="2304" RangeEnd="2559">
+    <GroupAddress Name="Long command Мастер спальня" Address="1/1/0" DPTs="DPST-1-8" />
+    <GroupAddress Name="Short command Мастер спальня" Address="1/1/1" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long command Спальня младшего сына" Address="1/1/2" DPTs="DPST-1-8" />
+    <GroupAddress Name="Short command Спальня младшего сына" Address="1/1/3" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long command Гардеробная сыновей" Address="1/1/4" DPTs="DPST-1-8" />
+    <GroupAddress Name="Short command Гардеробная сыновей" Address="1/1/5" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long command Спальня старшего сына" Address="1/1/6" DPTs="DPST-1-8" />
+    <GroupAddress Name="Short command Спальня старшего сына" Address="1/1/7" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long command Спальня дочери" Address="1/1/8" DPTs="DPST-1-8" />
+    <GroupAddress Name="Short command Спальня дочери" Address="1/1/9" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long command Гостиная" Address="1/1/10" DPTs="DPST-1-8" />
+    <GroupAddress Name="Short command Гостиная" Address="1/1/11" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long command Кухня" Address="1/1/12" DPTs="DPST-1-7" />
+    <GroupAddress Name="Short command Кухня" Address="1/1/13" DPTs="DPST-1-7" />
+    <GroupAddress Name="Long Command Гостиная (шторы)" Address="1/1/14" DPTs="DPST-1-8" />
+    <GroupAddress Name="Short Command Гостиная (шторы)" Address="1/1/15" DPTs="DPST-1-7" />
+  </GroupRange>
+  <GroupRange Name="Position command" RangeStart="2560" RangeEnd="2815">
+    <GroupAddress Name="Position command Мастер спальня" Address="1/2/0" DPTs="DPST-5-1" />
+    <GroupAddress Name="Position command Спальня 4.4" Address="1/2/1" DPTs="DPST-5-1" />
+    <GroupAddress Name="Position command Спальня 4.3" Address="1/2/2" DPTs="DPST-5-1" />
+    <GroupAddress Name="Position command Гостиная" Address="1/2/3" DPTs="DPST-5-1" />
+    <GroupAddress Name="Position command Резерв_1" Address="1/2/4" DPTs="DPST-5-1" />
+    <GroupAddress Name="Position command Резерв_2" Address="1/2/5" DPTs="DPST-5-1" />
+    <GroupAddress Name="Position command Резерв_3" Address="1/2/6" DPTs="DPST-5-1" />
+  </GroupRange>
+  <GroupRange Name="Position fieeback" RangeStart="2816" RangeEnd="3071">
+    <GroupAddress Name="Position fieeback Мастер спальня" Address="1/3/0" DPTs="DPST-5-1" />
+    <GroupAddress Name="Position fieeback Спальня 4.4" Address="1/3/1" DPTs="DPST-5-1" />
+    <GroupAddress Name="Position fieeback Спальня 4.3" Address="1/3/2" DPTs="DPST-5-1" />
+    <GroupAddress Name="Position fieeback Гостиная" Address="1/3/3" DPTs="DPST-5-1" />
+    <GroupAddress Name="Position fieeback Резерв_1" Address="1/3/4" DPTs="DPST-5-1" />
+    <GroupAddress Name="Position fieeback Резерв_2" Address="1/3/5" DPTs="DPST-5-1" />
+    <GroupAddress Name="Position fieeback Резерв_3" Address="1/3/6" DPTs="DPST-5-1" />
+  </GroupRange>
+  <GroupRange Name="Room controller K1.26 Кухня" RangeStart="4096" RangeEnd="4351">
+    <GroupAddress Name="K1.26_Setpoint full" Address="2/0/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.26_Heating/cooling feedback (1-heating)" Address="2/0/1" DPTs="DPST-1-100" />
+    <GroupAddress Name="K1.26_Limitation" Address="2/0/2" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_Setpoint shift feedback" Address="2/0/3" DPTs="DPST-6-10" />
+    <GroupAddress Name="K1.26_Setpoint shift command" Address="2/0/4" DPTs="DPST-6-10" />
+    <GroupAddress Name="K1.26_Actual temperature " Address="2/0/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.26_Temperature near the window" Address="2/0/6" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.26_Non balanced RCD temperature " Address="2/0/7" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.26_Fan level " Address="2/0/8" DPTs="DPST-5-10" />
+    <GroupAddress Name="K1.26_Disable" Address="2/0/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_Windows" Address="2/0/10" DPTs="DPST-1-9" />
+    <GroupAddress Name="K1.26_Fan_auto_man" Address="2/0/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_Forced position" Address="2/0/12" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_LED_3" Address="2/0/13" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_LED_4" Address="2/0/14" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_LED_5" Address="2/0/15" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_LED_6" Address="2/0/16" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_LED_7" Address="2/0/17" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_LED_8" Address="2/0/18" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_LED_3_Superposed" Address="2/0/19" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_LED_4_Superposed" Address="2/0/20" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_LED_5_Superposed" Address="2/0/21" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_LED_6_Superposed" Address="2/0/22" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_LED_7_Superposed" Address="2/0/23" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.26_LED_8_Superposed" Address="2/0/24" Unfiltered="true" DPTs="DPST-1-1" />
+  </GroupRange>
+  <GroupRange Name="Room controller K1.22 Гостиная" RangeStart="4352" RangeEnd="4607">
+    <GroupAddress Name="K1.22_Setpoint full" Address="2/1/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.22_Heating/cooling feedback (1-heating)" Address="2/1/1" DPTs="DPST-1-100" />
+    <GroupAddress Name="K1.22_Limitation" Address="2/1/2" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_Setpoint shift feedback" Address="2/1/3" DPTs="DPST-6-10" />
+    <GroupAddress Name="K1.22_Setpoint shift command" Address="2/1/4" DPTs="DPST-6-10" />
+    <GroupAddress Name="K1.22_Actual temperature " Address="2/1/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.22_Temperature near the window" Address="2/1/6" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.22_Non balanced RCD temperature " Address="2/1/7" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.22_Fan level " Address="2/1/8" DPTs="DPST-5-10" />
+    <GroupAddress Name="K1.22_Disable" Address="2/1/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_Windows" Address="2/1/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_Fan_auto_man" Address="2/1/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_Forced position" Address="2/1/12" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_LED_3" Address="2/1/13" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_LED_4" Address="2/1/14" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_LED_5" Address="2/1/15" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_LED_6" Address="2/1/16" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_LED_7" Address="2/1/17" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_LED_8" Address="2/1/18" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_LED_3_Superposed" Address="2/1/19" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_LED_4_Superposed" Address="2/1/20" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_LED_5_Superposed" Address="2/1/21" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_LED_6_Superposed" Address="2/1/22" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_LED_7_Superposed" Address="2/1/23" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_LED_8_Superposed" Address="2/1/24" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.22_Fan level Visual" Address="2/1/25" DPTs="DPST-5-10" />
+  </GroupRange>
+  <GroupRange Name="Room controller K1.17 Спальня дочери" RangeStart="4608" RangeEnd="4863">
+    <GroupAddress Name="K1.17_Setpoint full" Address="2/2/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.17_Heating/cooling feedback (1-heating)" Address="2/2/1" DPTs="DPST-1-100" />
+    <GroupAddress Name="K1.17_Setpoint shift feedback" Address="2/2/2" DPTs="DPST-6-10" />
+    <GroupAddress Name="K1.17_Setpoint shift command" Address="2/2/3" DPTs="DPST-6-10" />
+    <GroupAddress Name="K1.17_Actual temperature " Address="2/2/4" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.17_Fan level " Address="2/2/5" DPTs="DPST-5-10" />
+    <GroupAddress Name="K1.17_Temperature near the window" Address="2/2/6" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.17_Non balanced RCD temperature " Address="2/2/7" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.17_Limitation" Address="2/2/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_Disable" Address="2/2/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_Window" Address="2/2/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_Fan_auto_man" Address="2/2/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_Forced position" Address="2/2/12" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_LED_3" Address="2/2/13" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_LED_4" Address="2/2/14" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_LED_5" Address="2/2/15" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_LED_6" Address="2/2/16" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_LED_7" Address="2/2/17" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_LED_8" Address="2/2/18" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_LED_3_Superposed" Address="2/2/19" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_LED_4_Superposed" Address="2/2/20" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_LED_5_Superposed" Address="2/2/21" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_LED_6_Superposed" Address="2/2/22" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_LED_7_Superposed" Address="2/2/23" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.17_LED_8_Superposed" Address="2/2/24" Unfiltered="true" DPTs="DPST-1-1" />
+  </GroupRange>
+  <GroupRange Name="Room controller K1.14 Спальня старшего сына" RangeStart="4864" RangeEnd="5119">
+    <GroupAddress Name="K1.14_Setpoint full" Address="2/3/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.14_Heating/cooling feedback (1-heating)" Address="2/3/1" DPTs="DPST-1-100" />
+    <GroupAddress Name="K1.14_Setpoint shift feedback" Address="2/3/2" DPTs="DPST-6-10" />
+    <GroupAddress Name="K1.14_Setpoint shift command" Address="2/3/3" DPTs="DPST-6-10" />
+    <GroupAddress Name="K1.14_Actual temperature " Address="2/3/4" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.14_Temperature near the window" Address="2/3/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.14_Non balanced RCD temperature " Address="2/3/6" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.14_Fan level " Address="2/3/7" DPTs="DPST-5-10" />
+    <GroupAddress Name="K1.14_Limitation" Address="2/3/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_Disable" Address="2/3/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_Window" Address="2/3/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_Fan_auto_man" Address="2/3/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_Forced position" Address="2/3/12" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_LED_3" Address="2/3/13" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_LED_4" Address="2/3/14" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_LED_5" Address="2/3/15" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_LED_6" Address="2/3/16" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_LED_7" Address="2/3/17" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_LED_8" Address="2/3/18" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_LED_3_Superposed" Address="2/3/19" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_LED_4_Superposed" Address="2/3/20" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_LED_5_Superposed" Address="2/3/21" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_LED_6_Superposed" Address="2/3/22" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_LED_7_Superposed" Address="2/3/23" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.14_LED_8_Superposed" Address="2/3/24" Unfiltered="true" DPTs="DPST-1-1" />
+  </GroupRange>
+  <GroupRange Name="Room controller K1.9 Спальня младшего сына" RangeStart="5120" RangeEnd="5375">
+    <GroupAddress Name="K1.9_Setpoint full" Address="2/4/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.9_Heating/cooling feedback (1-heating)" Address="2/4/1" DPTs="DPST-1-100" />
+    <GroupAddress Name="K1.9_Setpoint shift feedback" Address="2/4/2" DPTs="DPST-6-10" />
+    <GroupAddress Name="K1.9_Setpoint shift command" Address="2/4/3" DPTs="DPST-6-10" />
+    <GroupAddress Name="K1.9_Actual temperature " Address="2/4/4" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.9_Temperature near the window" Address="2/4/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.9_Non balanced RCD temperature " Address="2/4/6" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.9_Fan level " Address="2/4/7" DPTs="DPST-5-10" />
+    <GroupAddress Name="K1.9_Limitation" Address="2/4/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_Disable" Address="2/4/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_Window" Address="2/4/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_Fan_auto_man" Address="2/4/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_Forced position" Address="2/4/12" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_LED_3" Address="2/4/13" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_LED_4" Address="2/4/14" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_LED_5" Address="2/4/15" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_LED_6" Address="2/4/16" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_LED_7" Address="2/4/17" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_LED_8" Address="2/4/18" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_LED_3_Superposed" Address="2/4/19" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_LED_4_Superposed" Address="2/4/20" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_LED_5_Superposed" Address="2/4/21" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_LED_6_Superposed" Address="2/4/22" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_LED_7_Superposed" Address="2/4/23" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.9_LED_8_Superposed" Address="2/4/24" Unfiltered="true" DPTs="DPST-1-1" />
+  </GroupRange>
+  <GroupRange Name="Room controller K1.7 Мастер спальня" RangeStart="5376" RangeEnd="5631">
+    <GroupAddress Name="K1.7_Setpoint full" Address="2/5/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.7_Heating/cooling feedback (1-heating)" Address="2/5/1" DPTs="DPST-1-100" />
+    <GroupAddress Name="K1.7_Setpoint shift feedback" Address="2/5/2" DPTs="DPST-6-10" />
+    <GroupAddress Name="K1.7_Setpoint shift command" Address="2/5/3" DPTs="DPST-6-10" />
+    <GroupAddress Name="K1.7_Actual temperature " Address="2/5/4" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.7_Temperature near the window" Address="2/5/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.7_Non balanced RCD temperature " Address="2/5/6" DPTs="DPST-9-1" />
+    <GroupAddress Name="K1.7_Fan level " Address="2/5/7" DPTs="DPST-5-10" />
+    <GroupAddress Name="K1.7_Limitation" Address="2/5/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_Disable" Address="2/5/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_Window" Address="2/5/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_Fan_auto_man" Address="2/5/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_Forced position" Address="2/5/12" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_LED_3" Address="2/5/13" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_LED_4" Address="2/5/14" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_LED_5" Address="2/5/15" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_LED_6" Address="2/5/16" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_LED_7" Address="2/5/17" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_LED_8" Address="2/5/18" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_LED_3_Superposed" Address="2/5/19" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_LED_4_Superposed" Address="2/5/20" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_LED_5_Superposed" Address="2/5/21" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_LED_6_Superposed" Address="2/5/22" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_LED_7_Superposed" Address="2/5/23" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="K1.7_LED_8_Superposed" Address="2/5/24" Unfiltered="true" DPTs="DPST-1-1" />
+  </GroupRange>
+  <GroupRange Name="SubRoom Temp" RangeStart="5632" RangeEnd="5887">
+    <GroupAddress Name="K1.13_Actual temperature" Address="2/6/0" DPTs="DPST-9-1" />
+  </GroupRange>
+  <GroupRange Name="AC2.2 Гостиная" RangeStart="6144" RangeEnd="6399">
+    <GroupAddress Name="AC2.2_Control_On/Off" Address="3/0/0" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC2.2_Control_Mode" Address="3/0/1" DPTs="DPST-20-102" />
+    <GroupAddress Name="AC2.2_Control_Fan Speed" Address="3/0/2" DPTs="DPT-5" />
+    <GroupAddress Name="AC2.2_Control_Status_Mode Bit" Address="3/0/3" DPTs="DPST-1-100" />
+    <GroupAddress Name="AC2.2_Status_On/Off" Address="3/0/4" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC2.2_Status_Mode" Address="3/0/5" DPTs="DPST-20-102" />
+    <GroupAddress Name="AC2.2_Status_Fan Speed" Address="3/0/6" DPTs="DPST-5-1" />
+    <GroupAddress Name="AC2.2_Status_AC Setpoint Temp" Address="3/0/7" DPTs="DPST-9-1" />
+    <GroupAddress Name="AC2.2_Status_AC Reference Temp" Address="3/0/8" DPTs="DPST-9-1" />
+    <GroupAddress Name="AC2.2_Mode Cool(Command 0..100)" Address="3/0/9" DPTs="DPST-5-1" />
+    <GroupAddress Name="AC2.2_Mode Heat(Command 0..100)" Address="3/0/10" DPTs="DPST-5-1" />
+    <GroupAddress Name="AC2.2_Feedback Error Code" Address="3/0/11" DPTs="DPST-237-600" />
+    <GroupAddress Name="AC2.2_Feedback Error Text" Address="3/0/12" DPTs="DPST-16-1" />
+    <GroupAddress Name="AC2.2_Feedback Error Bit" Address="3/0/13" DPTs="DPST-1-5" />
+    <GroupAddress Name="AC2.2_Status_On/Off Swing" Address="3/0/14" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC2.2_Status_On/Off Auxiliary Heater" Address="3/0/15" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC2.2_Status_AC Setpoint Heat Temp" Address="3/0/16" DPTs="DPST-9-1" />
+  </GroupRange>
+  <GroupRange Name="AC2.1 Спальня дочери" RangeStart="6400" RangeEnd="6655">
+    <GroupAddress Name="AC2.1_Control_On/Off" Address="3/1/0" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC2.1_Control_Mode" Address="3/1/1" DPTs="DPST-20-102" />
+    <GroupAddress Name="AC2.1_Control_Fan Speed" Address="3/1/2" DPTs="DPT-5" />
+    <GroupAddress Name="AC2.1_Control_Status_Mode Bit" Address="3/1/3" DPTs="DPST-1-100" />
+    <GroupAddress Name="AC2.1_Status_On/Off" Address="3/1/4" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC2.1_Status_Mode" Address="3/1/5" DPTs="DPST-20-102" />
+    <GroupAddress Name="AC2.1_Status_Fan Speed" Address="3/1/6" DPTs="DPST-5-1" />
+    <GroupAddress Name="AC2.1_Status_AC Setpoint Temp" Address="3/1/7" DPTs="DPST-9-1" />
+    <GroupAddress Name="AC2.1_Status_AC Reference Temp" Address="3/1/8" DPTs="DPST-9-1" />
+    <GroupAddress Name="AC2.1_Mode Cool(Command 0..100)" Address="3/1/9" DPTs="DPST-5-1" />
+    <GroupAddress Name="AC2.1_Mode Heat(Command 0..100)" Address="3/1/10" DPTs="DPST-5-1" />
+    <GroupAddress Name="AC2.1_Feedback Error Code" Address="3/1/11" DPTs="DPST-237-600" />
+    <GroupAddress Name="AC2.1_Feedback Error Text" Address="3/1/12" DPTs="DPST-16-1" />
+    <GroupAddress Name="AC2.1_Feedback Error Bit" Address="3/1/13" DPTs="DPST-1-5" />
+    <GroupAddress Name="AC2.1_Status_On/Off Swing" Address="3/1/14" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC2.1_Status_On/Off Auxiliary Heater" Address="3/1/15" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC2.1_Status_AC Setpoint Heat Temp" Address="3/1/16" DPTs="DPST-9-1" />
+  </GroupRange>
+  <GroupRange Name="AC1.1 Мастер спальня" RangeStart="6656" RangeEnd="6911">
+    <GroupAddress Name="AC1.1_Control_On/Off" Address="3/2/0" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC1.1_Control_Mode" Address="3/2/1" DPTs="DPST-20-102" />
+    <GroupAddress Name="AC1.1_Control_Fan Speed" Address="3/2/2" DPTs="DPT-5" />
+    <GroupAddress Name="AC1.1_Control_Status_Mode Bit" Address="3/2/3" DPTs="DPST-1-100" />
+    <GroupAddress Name="AC1.1_Status_On/Off" Address="3/2/4" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC1.1_Status_Mode" Address="3/2/5" DPTs="DPST-20-102" />
+    <GroupAddress Name="AC1.1_Status_Fan Speed" Address="3/2/6" DPTs="DPST-5-1" />
+    <GroupAddress Name="AC1.1_Status_AC Setpoint Temp" Address="3/2/7" DPTs="DPST-9-1" />
+    <GroupAddress Name="AC1.1_Status_AC Reference Temp" Address="3/2/8" DPTs="DPST-9-1" />
+    <GroupAddress Name="AC1.1_Mode Cool(Command 0..100)" Address="3/2/9" DPTs="DPST-5-1" />
+    <GroupAddress Name="AC1.1_Mode Heat(Command 0..100)" Address="3/2/10" DPTs="DPST-5-1" />
+    <GroupAddress Name="AC1.1_Feedback Error Code" Address="3/2/11" DPTs="DPST-237-600" />
+    <GroupAddress Name="AC1.1_Feedback Error Text" Address="3/2/12" DPTs="DPST-16-1" />
+    <GroupAddress Name="AC1.1_Feedback Error Bit" Address="3/2/13" DPTs="DPST-1-5" />
+    <GroupAddress Name="AC1.1_Status_On/Off Swing" Address="3/2/14" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC1.1_Status_On/Off Auxiliary Heater" Address="3/2/15" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC1.1_Status_AC Setpoint Heat Temp" Address="3/2/16" DPTs="DPST-9-1" />
+  </GroupRange>
+  <GroupRange Name="AC1.2 Спальни сыновей" RangeStart="6912" RangeEnd="7167">
+    <GroupAddress Name="AC1.2_Control_On/Off" Address="3/3/0" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC1.2_Control_Mode" Address="3/3/1" DPTs="DPST-20-102" />
+    <GroupAddress Name="AC1.2_Control_Fan Speed" Address="3/3/2" DPTs="DPT-5" />
+    <GroupAddress Name="AC1.2_Control_Status_Mode Bit" Address="3/3/3" DPTs="DPST-1-100" />
+    <GroupAddress Name="AC1.2_Status_On/Off" Address="3/3/4" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC1.2_Status_Mode" Address="3/3/5" DPTs="DPST-20-102" />
+    <GroupAddress Name="AC1.2_Status_Fan Speed" Address="3/3/6" DPTs="DPST-5-1" />
+    <GroupAddress Name="AC1.2_Status_AC Setpoint Temp" Address="3/3/7" DPTs="DPST-9-1" />
+    <GroupAddress Name="AC1.2_Status_AC Reference Temp" Address="3/3/8" DPTs="DPST-9-1" />
+    <GroupAddress Name="AC1.2_Mode Cool(Command 0..100)" Address="3/3/9" DPTs="DPST-5-1" />
+    <GroupAddress Name="AC1.2_Mode Heat(Command 0..100)" Address="3/3/10" DPTs="DPST-5-1" />
+    <GroupAddress Name="AC1.2_Feedback Error Code" Address="3/3/11" DPTs="DPST-237-600" />
+    <GroupAddress Name="AC1.2_Feedback Error Text" Address="3/3/12" DPTs="DPST-16-1" />
+    <GroupAddress Name="AC1.2_Feedback Error Bit" Address="3/3/13" DPTs="DPST-1-5" />
+    <GroupAddress Name="AC1.2_Status_On/Off Swing" Address="3/3/14" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC1.2_Status_On/Off Auxiliary Heater" Address="3/3/15" DPTs="DPST-1-1" />
+    <GroupAddress Name="AC1.2_Status_AC Setpoint Heat Temp" Address="3/3/16" DPTs="DPST-9-1" />
+  </GroupRange>
+  <GroupRange Name="Command value" RangeStart="8192" RangeEnd="8447">
+    <GroupAddress Name="Command value ТЭК 4 Кухня" Address="4/0/0" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value ТЭК 5 Гостиная" Address="4/0/1" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value ТЭК 7 Спальня дочери" Address="4/0/2" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value ТЭК" Address="4/0/3" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value ТЭК 9 + ТЭК 10 Спальня старшего сына + гаргероб" Address="4/0/4" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value ТЭК 11 Спальня младшего сына" Address="4/0/5" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value ТЭК" Address="4/0/6" DPTs="DPST-5-1" />
+    <GroupAddress Name="Command value ТЭК 12 Мастер спальня" Address="4/0/7" DPTs="DPST-5-1" />
+  </GroupRange>
+  <GroupRange Name="Limit value" RangeStart="8448" RangeEnd="8703">
+    <GroupAddress Name="Limit value ТЭК 4 Кухня" Address="4/1/0" DPTs="DPST-1-2" />
+    <GroupAddress Name="Limit value ТЭК 5 Гостиная" Address="4/1/1" DPTs="DPST-1-2" />
+    <GroupAddress Name="Limit value ТЭК 7 Спальня дочери" Address="4/1/2" DPTs="DPST-1-2" />
+    <GroupAddress Name="Limit value ТЭК" Address="4/1/3" DPTs="DPST-1-2" />
+    <GroupAddress Name="Limit value ТЭК 9 + ТЭК 10 Спальня старшего сына + гаргероб" Address="4/1/4" DPTs="DPST-1-2" />
+    <GroupAddress Name="Limit value ТЭК 11 Спальня младшего сына" Address="4/1/5" DPTs="DPST-1-2" />
+    <GroupAddress Name="Limit value ТЭК" Address="4/1/6" DPTs="DPST-1-2" />
+    <GroupAddress Name="Limit value ТЭК 12 Мастер спальня" Address="4/1/7" DPTs="DPST-1-2" />
+  </GroupRange>
+  <GroupRange Name="TS1 ок" RangeStart="10240" RangeEnd="10495">
+    <GroupAddress Name="TS1.1_Actual Temperature" Address="5/0/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS1.1_Basic Command Setpoint" Address="5/0/1" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS1.1_Setpoint Command Step" Address="5/0/2" DPTs="DPST-1-7" />
+    <GroupAddress Name="TS1.1_Setpoint Offset" Address="5/0/3" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS1.1_Setpoint Status" Address="5/0/4" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS1.1_Basic Feedback Setpoint" Address="5/0/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS1.1_Setpoint Feedback Offset" Address="5/0/6" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS1.1_Reset" Address="5/0/7" DPTs="DPST-1-15" />
+    <GroupAddress Name="TS1.1_Command thermostat on/off" Address="5/0/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS1.1_Feedback thermostat on/off" Address="5/0/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS1.1_Command Heating" Address="5/0/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS1.1_Feedback Heating" Address="5/0/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS1.1_Error" Address="5/0/12" DPTs="DPST-1-5" />
+    <GroupAddress Name="TS1.2_Actual Temperature" Address="5/0/13" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS1.2_Basic Command Setpoint" Address="5/0/14" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS1.2_Setpoint Command Step" Address="5/0/15" DPTs="DPST-1-7" />
+    <GroupAddress Name="TS1.2_Setpoint Offset" Address="5/0/16" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS1.2_Setpoint Status" Address="5/0/17" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS1.2_Basic Feedback Setpoint" Address="5/0/18" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS1.2_Setpoint Feedback Offset" Address="5/0/19" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS1.2_Reset" Address="5/0/20" DPTs="DPST-1-15" />
+    <GroupAddress Name="TS1.2_Command thermostat on/off" Address="5/0/21" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS1.2_Feedback thermostat on/off" Address="5/0/22" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS1.2_Command Heating" Address="5/0/23" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS1.2_Feedback Heating" Address="5/0/24" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS1.2_Error" Address="5/0/25" DPTs="DPST-1-5" />
+  </GroupRange>
+  <GroupRange Name="TS2 ок" RangeStart="10496" RangeEnd="10751">
+    <GroupAddress Name="TS2_Actual Temperature" Address="5/1/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS2_Basic Command Setpoint" Address="5/1/1" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS2_Setpoint Command Step" Address="5/1/2" DPTs="DPST-1-7" />
+    <GroupAddress Name="TS2_Setpoint Offset" Address="5/1/3" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS2_Setpoint Status" Address="5/1/4" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS2_Basic Feedback Setpoint" Address="5/1/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS2_Setpoint Feedback Offset" Address="5/1/6" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS2_Reset" Address="5/1/7" DPTs="DPST-1-15" />
+    <GroupAddress Name="TS2_Command thermostat on/off" Address="5/1/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS2_Feedback thermostat on/off" Address="5/1/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS2_Command Heating" Address="5/1/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS2_Feedback Heating" Address="5/1/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS2_Error" Address="5/1/12" DPTs="DPST-1-5" />
+  </GroupRange>
+  <GroupRange Name="TS3 ок" RangeStart="10752" RangeEnd="11007">
+    <GroupAddress Name="TS3_Actual Temperature" Address="5/2/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS3_Basic Command Setpoint" Address="5/2/1" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS3_Setpoint Command Step" Address="5/2/2" DPTs="DPST-1-7" />
+    <GroupAddress Name="TS3_Setpoint Offset" Address="5/2/3" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS3_Setpoint Status" Address="5/2/4" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS3_Basic Feedback Setpoint" Address="5/2/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS3_Setpoint Feedback Offset" Address="5/2/6" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS3_Reset" Address="5/2/7" DPTs="DPST-1-15" />
+    <GroupAddress Name="TS3_Command thermostat on/off" Address="5/2/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS3_Feedback thermostat on/off" Address="5/2/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS3_Command Heating" Address="5/2/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS3_Feedback Heating" Address="5/2/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS3_Error" Address="5/2/12" DPTs="DPST-1-5" />
+  </GroupRange>
+  <GroupRange Name="TS5 ок" RangeStart="11264" RangeEnd="11519">
+    <GroupAddress Name="TS5_Actual Temperature" Address="5/4/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS5_Basic Command Setpoint" Address="5/4/1" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS5_Setpoint Command Step" Address="5/4/2" DPTs="DPST-1-7" />
+    <GroupAddress Name="TS5_Setpoint Offset" Address="5/4/3" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS5_Setpoint Status" Address="5/4/4" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS5_Basic Feedback Setpoint" Address="5/4/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS5_Setpoint Feedback Offset" Address="5/4/6" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS5_Reset" Address="5/4/7" DPTs="DPST-1-15" />
+    <GroupAddress Name="TS5_Command thermostat on/off" Address="5/4/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS5_Feedback thermostat on/off" Address="5/4/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS5_Command Heating" Address="5/4/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS5_Feedback Heating" Address="5/4/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS5_Error" Address="5/4/12" DPTs="DPST-1-5" />
+  </GroupRange>
+  <GroupRange Name="TS6 ок" RangeStart="11520" RangeEnd="11775">
+    <GroupAddress Name="TS6_Actual Temperature" Address="5/5/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS6_Basic Command Setpoint" Address="5/5/1" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS6_Setpoint Command Step" Address="5/5/2" DPTs="DPST-1-7" />
+    <GroupAddress Name="TS6_Setpoint Offset" Address="5/5/3" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS6_Setpoint Status" Address="5/5/4" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS6_Basic Feedback Setpoint" Address="5/5/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS6_Setpoint Feedback Offset" Address="5/5/6" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS6_Reset" Address="5/5/7" DPTs="DPST-1-15" />
+    <GroupAddress Name="TS6_Command thermostat on/off" Address="5/5/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS6_Feedback thermostat on/off" Address="5/5/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS6_Command Heating" Address="5/5/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS6_Feedback Heating" Address="5/5/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS6_Error" Address="5/5/12" DPTs="DPST-1-5" />
+  </GroupRange>
+  <GroupRange Name="TS7 ok" RangeStart="11776" RangeEnd="12031">
+    <GroupAddress Name="TS7_Actual Temperature 22.2" Address="5/6/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS7_Basic Command Setpoint" Address="5/6/1" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS7_Setpoint Command Step" Address="5/6/2" DPTs="DPST-1-7" />
+    <GroupAddress Name="TS7_Setpoint Offset" Address="5/6/3" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS7_Setpoint Status" Address="5/6/4" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS7_Basic Feedback Setpoint" Address="5/6/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS7_Setpoint Feedback Offset" Address="5/6/6" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS7_Reset" Address="5/6/7" DPTs="DPST-1-15" />
+    <GroupAddress Name="TS7_Command thermostat on/off" Address="5/6/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS7_Feedback thermostat on/off" Address="5/6/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS7_Command Heating" Address="5/6/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS7_Feedback Heating" Address="5/6/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS7_Error" Address="5/6/12" DPTs="DPST-1-5" />
+  </GroupRange>
+  <GroupRange Name="TS8 ок" RangeStart="12032" RangeEnd="12287">
+    <GroupAddress Name="TS8_Actual Temperature" Address="5/7/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS8_Basic Command Setpoint" Address="5/7/1" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS8_Setpoint Command Step" Address="5/7/2" DPTs="DPST-1-7" />
+    <GroupAddress Name="TS8_Setpoint Offset" Address="5/7/3" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS8_Setpoint Status" Address="5/7/4" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS8_Basic Feedback Setpoint" Address="5/7/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS8_Setpoint Feedback Offset" Address="5/7/6" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS8_Reset" Address="5/7/7" DPTs="DPST-1-15" />
+    <GroupAddress Name="TS8_Command thermostat on/off" Address="5/7/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS8_Feedback thermostat on/off" Address="5/7/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS8_Command Heating" Address="5/7/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS8_Feedback Heating" Address="5/7/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS8_Error" Address="5/7/12" DPTs="DPST-1-5" />
+  </GroupRange>
+  <GroupRange Name="TS9" RangeStart="12288" RangeEnd="12543">
+    <GroupAddress Name="TS9_Actual Temperature" Address="6/0/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS9_Basic Command Setpoint" Address="6/0/1" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS9_Setpoint Command Step" Address="6/0/2" DPTs="DPST-1-7" />
+    <GroupAddress Name="TS9_Setpoint Offset" Address="6/0/3" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS9_Setpoint Status" Address="6/0/4" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS9_Basic Feedback Setpoint" Address="6/0/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS9_Setpoint Feedback Offset" Address="6/0/6" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS9_Reset" Address="6/0/7" DPTs="DPST-1-15" />
+    <GroupAddress Name="TS9_Command thermostat on/off" Address="6/0/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS9_Feedback thermostat on/off" Address="6/0/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS9_Command Heating" Address="6/0/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS9_Feedback Heating" Address="6/0/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS9_Error" Address="6/0/12" DPTs="DPST-1-5" />
+  </GroupRange>
+  <GroupRange Name="TS10" RangeStart="12544" RangeEnd="12799">
+    <GroupAddress Name="TS10_Actual Temperature" Address="6/1/0" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS10_Basic Command Setpoint" Address="6/1/1" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS10_Setpoint Command Step" Address="6/1/2" DPTs="DPST-1-7" />
+    <GroupAddress Name="TS10_Setpoint Offset" Address="6/1/3" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS10_Setpoint Status" Address="6/1/4" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS10_Basic Feedback Setpoint" Address="6/1/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="TS10_Setpoint Feedback Offset" Address="6/1/6" DPTs="DPST-9-2" />
+    <GroupAddress Name="TS10_Reset" Address="6/1/7" DPTs="DPST-1-15" />
+    <GroupAddress Name="TS10_Command thermostat on/off" Address="6/1/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS10_Feedback thermostat on/off" Address="6/1/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS10_Command Heating" Address="6/1/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS10_Feedback Heating" Address="6/1/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="TS10_Error" Address="6/1/12" DPTs="DPST-1-5" />
+  </GroupRange>
+  <GroupRange Name="Command" RangeStart="14336" RangeEnd="14591">
+    <GroupAddress Name="ШЭП16 Command (Постирочная) (подключена постирочная)" Address="7/0/0" DPTs="DPST-1-1" />
+    <GroupAddress Name="Test" Address="7/0/1" DPTs="DPST-18-1" />
+    <GroupAddress Name="ШЭП8 Command  (master WC) (подключен master WC)" Address="7/0/2" DPTs="DPST-1-1" />
+    <GroupAddress Name="ШЭП3 Command  (WC2) (подключен WC2)" Address="7/0/3" DPTs="DPST-1-1" />
+    <GroupAddress Name="ШЭП4 Command (WC1)  (подключен WC1, Guest WC)" Address="7/0/4" DPTs="DPST-1-1" />
+    <GroupAddress Name="ШЭП5 Command (Прихожая) (подключена Кухня)" Address="7/0/5" DPTs="DPST-1-1" />
+    <GroupAddress Name="ШЭП6 Command (Гоcтиная) (нечего)" Address="7/0/6" DPTs="DPST-1-1" />
+    <GroupAddress Name="ШЭП7 Command (коллектор кв45)" Address="7/0/7" DPTs="DPST-1-1" />
+    <GroupAddress Name="ШЭП8 Command ( коллектор кв44)" Address="7/0/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="Reset leaks" Address="7/0/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="ШЭП16 Feedback" Address="7/0/10" DPTs="DPST-5-1" />
+    <GroupAddress Name="ШЭП8 Feedback" Address="7/0/11" DPTs="DPST-5-1" />
+  </GroupRange>
+  <GroupRange Name="Leaks Water" RangeStart="14592" RangeEnd="14847">
+    <GroupAddress Name="Leaks Heat (не подкл. 1, 2, 3 inputs на B1)" Address="7/1/0" DPTs="DPST-1-1" />
+    <GroupAddress Name="Leaks Heat (не подкл. 1, 2, 3 inputs на B1)" Address="7/1/1" DPTs="DPST-1-1" />
+    <GroupAddress Name="Leaks Heat (не подкл. 1, 2, 3 inputs на B1)" Address="7/1/2" DPTs="DPST-1-1" />
+    <GroupAddress Name="Leaks Water D14.1 ok" Address="7/1/3" DPTs="DPST-1-1" />
+    <GroupAddress Name="Leaks Water D15.1 ok" Address="7/1/4" DPTs="DPST-1-1" />
+    <GroupAddress Name="Leaks Heat D8.1 ok" Address="7/1/5" DPTs="DPST-1-1" />
+    <GroupAddress Name="Leaks Heat D8.2 ok" Address="7/1/6" DPTs="DPT-1" />
+    <GroupAddress Name="Leaks Heat D8.3 ok" Address="7/1/7" DPTs="DPST-1-1" />
+    <GroupAddress Name="Leaks Heat D3.1 ok" Address="7/1/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="Leaks Heat D4.1 ! не работает датчик V" Address="7/1/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="Leaks Heat D4.2 не работает датчик V" Address="7/1/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="Leaks Heat D16.2 ok" Address="7/1/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="Leaks Heat D16.3 ! нет доступа V" Address="7/1/12" DPTs="DPST-1-1" />
+    <GroupAddress Name="Leaks Heat D16.1 ! не работает датчик V" Address="7/1/13" DPTs="DPST-1-1" />
+    <GroupAddress Name="Leaks Humidification ДУ1" Address="7/1/14" DPTs="DPST-1-1" />
+    <GroupAddress Name="Leaks Humidification ДУ2" Address="7/1/15" DPTs="DPST-1-1" />
+  </GroupRange>
+  <GroupRange Name="Alarms" RangeStart="14848" RangeEnd="15103">
+    <GroupAddress Name="Reset Alarm signal" Address="7/2/1" DPTs="DPST-1-1" />
+    <GroupAddress Name="Alarm signal" Address="7/2/2" DPTs="DPST-1-1" />
+    <GroupAddress Name="Reset leaks" Address="7/2/3" DPTs="DPST-1-1" />
+  </GroupRange>
+  <GroupRange Name="Disable" RangeStart="16384" RangeEnd="16639" Unfiltered="true">
+    <GroupAddress Name="Disable Z2.14 (0 - enable)" Address="8/0/0" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.13 (0 - enable)" Address="8/0/1" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.12 (0 - enable)" Address="8/0/2" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.11 (0 - enable)" Address="8/0/3" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.10 (0 - enable)" Address="8/0/4" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.9 (0 - enable)" Address="8/0/5" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.7 (0 - enable)" Address="8/0/7" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.6/Z2.8 (0 - enable)" Address="8/0/8" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.5 (0 - enable)" Address="8/0/9" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.2/Z2.3/Z2.4 (0 - enable)" Address="8/0/12" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.1 (0 - enable)" Address="8/0/13" Unfiltered="true" DPTs="DPT-1" />
+  </GroupRange>
+  <GroupRange Name="External motion" RangeStart="16640" RangeEnd="16895" Unfiltered="true">
+    <GroupAddress Name="External motion Z2.7-Z2.8" Address="8/1/0" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="External motion Z2.10-Z2.14" Address="8/1/1" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="External motion Z2.2-Z2.3-Z2.4" Address="8/1/2" Unfiltered="true" DPTs="DPT-1" />
+  </GroupRange>
+  <GroupRange Name="BCU" RangeStart="16896" RangeEnd="17151" Unfiltered="true">
+    <GroupAddress Name="Command Up K1.1- Z2.1" Address="8/2/0" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command Down K1.1- Z2.1" Address="8/2/1" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command Up K1.2- Z2.4" Address="8/2/2" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command Down K1.2- Z2.4" Address="8/2/3" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command Up K1.29- Z2.11" Address="8/2/4" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command Down K1.29- Z2.11" Address="8/2/5" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command Up K1.20- Z2.9" Address="8/2/6" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command Down K1.20- Z2.9" Address="8/2/7" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command ON/OFF K1.5-Z2.5" Address="8/2/8" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command OFF All fo Go out" Address="8/2/9" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Command OFF All fo Go out Timer" Address="8/2/10" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Command Up K1.33- Z2.13" Address="8/2/11" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command Down K1.33- Z2.13" Address="8/2/12" Unfiltered="true" DPTs="DPST-1-1" />
+  </GroupRange>
+  <GroupRange Name="Logic Light Manual Off" RangeStart="17152" RangeEnd="17407" Unfiltered="true">
+    <GroupAddress Name="Logic Filter K1.1- Z2.1" Address="8/3/0" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Logic Timer K1.1- Z2.1" Address="8/3/1" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Logic Filter K1.2- Z2.4" Address="8/3/2" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Logic Timer K1.2- Z2.4" Address="8/3/3" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Logic Filter K1.29- Z2.11" Address="8/3/4" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Logic Timer K1.29- Z2.11" Address="8/3/5" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Logic Filter K1.20- Z2.9" Address="8/3/6" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Logic Timer K1.20- Z2.9" Address="8/3/7" Unfiltered="true" DPTs="DPST-1-1" />
+    <GroupAddress Name="Logic Filter K1.33-Z2.13" Address="8/3/8" Unfiltered="true" DPTs="DPST-1-2" />
+    <GroupAddress Name="Logic Timer K1.33-Z2.13" Address="8/3/9" Unfiltered="true" DPTs="DPST-1-2" />
+  </GroupRange>
+  <GroupRange Name="Disable Iridi" RangeStart="17408" RangeEnd="17663" Unfiltered="true">
+    <GroupAddress Name="Disable Z2.14 Iridi (0 - enable)" Address="8/4/0" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.13 Iridi (0 - enable)" Address="8/4/1" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.12 Iridi (0 - enable)" Address="8/4/2" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.11 Iridi (0 - enable)" Address="8/4/3" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.10 Iridi (0 - enable)" Address="8/4/4" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.9 Iridi (0 - enable)" Address="8/4/5" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.7 Iridi (0 - enable)" Address="8/4/7" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.6/Z2.8 Iridi (0 - enable)" Address="8/4/8" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.5 Iridi (0 - enable)" Address="8/4/9" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.2/Z2.3/Z2.4 Iridi (0 - enable)" Address="8/4/12" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Disable Z2.1 Iridi (0 - enable)" Address="8/4/13" Unfiltered="true" DPTs="DPT-1" />
+  </GroupRange>
+  <GroupRange Name="Logic detection" RangeStart="17664" RangeEnd="17919" Unfiltered="true">
+    <GroupAddress Name="Z5 input Log" Address="8/5/0" Unfiltered="true" DPTs="DPT-1" />
+    <GroupAddress Name="Z6 input Log" Address="8/5/1" Unfiltered="true" DPTs="DPT-1" />
+  </GroupRange>
+  <GroupRange Name="Global" RangeStart="18432" RangeEnd="18687">
+    <GroupAddress Name="Global Go out  Scenes" Address="9/0/0" DPTs="DPT-5" />
+    <GroupAddress Name="Scene operation mode (1-comfort, 2- standby, 3- night)" Address="9/0/1" DPTs="DPT-5" />
+    <GroupAddress Name="Scene, 2- standby" Address="9/0/2" DPTs="DPT-5" />
+    <GroupAddress Name="0-Comfort 1-ECO 2-OFF" Address="9/0/3" DPTs="DPT-5" />
+    <GroupAddress Name="Scene occupacity OFF" Address="9/0/4" DPTs="DPST-1-1" />
+    <GroupAddress Name="Basic setpoint" Address="9/0/5" DPTs="DPST-9-1" />
+    <GroupAddress Name="Scene occupacity" Address="9/0/6" DPTs="DPST-1-1" />
+    <GroupAddress Name="Day/Night (1-night)" Address="9/0/7" DPTs="DPT-1" />
+    <GroupAddress Name="Day/Night feedback (1-night)" Address="9/0/8" DPTs="DPT-1" />
+    <GroupAddress Name="i come detector" Address="9/0/13" DPTs="DPT-1" />
+  </GroupRange>
+  <GroupRange Name="Other" RangeStart="18688" RangeEnd="18943">
+    <GroupAddress Name="Logic Manual Off Night illumination" Address="9/1/0" DPTs="DPT-1" />
+    <GroupAddress Name="KM1 command" Address="9/1/1" DPTs="DPST-1-1" />
+    <GroupAddress Name="KM1 feedback " Address="9/1/2" DPTs="DPST-1-1" />
+    <GroupAddress Name="Fire KM2 command" Address="9/1/3" DPTs="DPST-1-1" />
+    <GroupAddress Name="KM2 feedback" Address="9/1/4" DPTs="DPST-1-1" />
+    <GroupAddress Name="Command Обогрев воронок" Address="9/1/5" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback Обогрев воронок" Address="9/1/6" DPTs="DPST-1-1" />
+    <GroupAddress Name="Сommand on/off П1 Мастер санузел" Address="9/1/7" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off П1 Мастер санузел" Address="9/1/8" DPTs="DPST-1-1" />
+    <GroupAddress Name="Сommand on/off П2 Санузел" Address="9/1/9" DPTs="DPST-1-1" />
+    <GroupAddress Name="Feedback on/off П2 Санузел" Address="9/1/10" DPTs="DPST-1-1" />
+    <GroupAddress Name="Fire KM2 command switching" Address="9/1/11" DPTs="DPST-1-1" />
+    <GroupAddress Name="Voltage return swiching" Address="9/1/12" DPTs="DPST-1-1" />
+    <GroupAddress Name="Voltage return feedback" Address="9/1/13" DPTs="DPST-1-1" />
+    <GroupAddress Name="test setpoint 3" Address="9/1/14" DPTs="DPST-9-1" />
+    <GroupAddress Name="test setpoint 4" Address="9/1/15" DPTs="DPST-9-1" />
+    <GroupAddress Name="test act temp 1" Address="9/1/16" DPTs="DPST-9-1" />
+    <GroupAddress Name="test act temp 2" Address="9/1/17" DPTs="DPST-9-1" />
+    <GroupAddress Name="test act temp 3" Address="9/1/18" DPTs="DPST-9-1" />
+    <GroupAddress Name="test act temp 4" Address="9/1/19" DPTs="DPST-9-1" />
+    <GroupAddress Name="test fan level 1" Address="9/1/20" DPTs="DPST-5-10" />
+    <GroupAddress Name="test fan level 2" Address="9/1/21" DPTs="DPST-5-10" />
+    <GroupAddress Name="test fan level 3" Address="9/1/22" DPTs="DPST-5-10" />
+    <GroupAddress Name="test fan level 4" Address="9/1/23" DPTs="DPST-5-10" />
+    <GroupAddress Name="test window 1" Address="9/1/24" DPTs="DPST-1-9" />
+    <GroupAddress Name="test window 2" Address="9/1/25" DPTs="DPST-1-9" />
+    <GroupAddress Name="test window 3" Address="9/1/26" DPTs="DPST-1-9" />
+    <GroupAddress Name="test window 4" Address="9/1/27" DPTs="DPST-1-9" />
+    <GroupAddress Name="test setpoint 5" Address="9/1/28" DPTs="DPST-9-1" />
+    <GroupAddress Name="test act temp 5" Address="9/1/29" DPTs="DPST-9-1" />
+    <GroupAddress Name="test fan level 5" Address="9/1/30" DPTs="DPST-5-10" />
+    <GroupAddress Name="test window 5" Address="9/1/31" DPTs="DPST-1-9" />
+    <GroupAddress Name="Test mode" Address="9/1/32" DPTs="DPST-20-102" />
+    <GroupAddress Name="Test on/off" Address="9/1/33" DPTs="DPST-1-1" />
+    <GroupAddress Name="Test setpoint" Address="9/1/34" DPTs="DPST-9-1" />
+    <GroupAddress Name="Test fan speed" Address="9/1/35" DPTs="DPST-5-1" />
+    <GroupAddress Name="Status mode" Address="9/1/36" DPTs="DPST-20-102" />
+    <GroupAddress Name="Status on/off" Address="9/1/37" DPTs="DPST-1-1" />
+    <GroupAddress Name="Status setpoint" Address="9/1/38" DPTs="DPST-9-1" />
+    <GroupAddress Name="Status fan speed" Address="9/1/39" DPTs="DPST-5-1" />
+    <GroupAddress Name="Status Ambient temp" Address="9/1/40" DPTs="DPST-9-1" />
+  </GroupRange>
+  <GroupRange Name="Winter/Summer" RangeStart="18944" RangeEnd="19199">
+    <GroupAddress Name="Disable auto win/sum" Address="9/2/0" DPTs="DPST-1-1" />
+    <GroupAddress Name="Win/Sum" Address="9/2/1" DPTs="DPST-1-1" />
+    <GroupAddress Name="Outdoor temperature" Address="9/2/2" DPTs="DPST-9-1" />
+    <GroupAddress Name="Master Cool/Heat_2" Address="9/2/3" />
+    <GroupAddress Name="Win/Sum_2" Address="9/2/4" DPTs="DPST-1-1" />
+    <GroupAddress Name="Disable additional level_2" Address="9/2/5" DPTs="DPST-1-1" />
+    <GroupAddress Name="Disable additional level" Address="9/2/6" DPTs="DPST-1-1" />
+    <GroupAddress Name="Master Cool/Heat" Address="9/2/7" />
+  </GroupRange>
+</GroupAddress-Export>
