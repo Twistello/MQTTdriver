@@ -1,22 +1,25 @@
 from json import load, dump
 from bs4 import BeautifulSoup
+import os
 
 dptMapping = {'1':'1','5':'3','6':'2','9':'8','17':'10'}
 
+
 class Channels:
 
-    def __init__(self, filename='MqttDriverTemplate.json',newFileName = 'MqttDriver.json', xmlFile = 'StressTestK301.xml', objectName = 'K301-302'):
+    def __init__(self, filename='MqttDriverTemplate.json',newFileName = 'MqttDriver.json', xmlFile = 'StressTestK301.xml', objectName = 'DefaultObject'):
+        username = os.getlogin()
+        self.__xmlFileSavePath = fr'C:\Users\{username}\Desktop\MqttDriver.json'
         self.__filename = filename
         self.__newFileName = newFileName
         self.__xmlFile = xmlFile
         self.__object = objectName
-        self.loadTemplate()                  # не забыть убрать и потом вызвать когда нужно
 
     def setObjectName(self, name):
         self.__object = name
 
-    def setXmlFileName(self, name):
-        self.__xmlFile = name
+    def setXmlFileSaveDir(self, pathDir):
+        self.__xmlFileSavePath = pathDir
 
     def setNewFileName(self, name):
         self.__newFileName = name
@@ -24,25 +27,25 @@ class Channels:
     def loadTemplate(self):
 
         try:
-            with open(self.__filename,encoding='utf-8') as driver:
+            with open(r'./MqttDriverTemplate.json',encoding='utf-8') as driver:
                 self.__driverTemplate = load(driver)
         except FileNotFoundError:
             self.__driverTemplate = {}
 
-    def __save(self):
+    def save(self,savePath):
 
-        with open(self.__newFileName, 'w') as driver:
+        with open(savePath, 'w') as driver:
             dump(self.__driverTemplate, driver)
 
-    def __addChannels(self, data): #добавление комманд в шаблон драйвера
+    def __addChannels(self, data):
 
-        self.__driverTemplate['Devices'][0]['Commands'] = data  # Массив словарей с коммандами
-        self.__save()
+        self.__driverTemplate['Devices'][0]['Commands'] = data
 
-    def loadXml(self):
+
+    def loadXml(self, pathXml):
 
         try:
-            with open(self.__xmlFile, encoding='utf-8') as fp:
+            with open(fr"{pathXml}", encoding='utf-8') as fp:
                 self.__soupData = BeautifulSoup(fp.read(), "xml")
                 self.__xmlData = self.__soupData.find_all('GroupAddress')
 
@@ -50,6 +53,7 @@ class Channels:
             self.__xmlData = {}
 
         self.__dataExtract()
+        return self.__xmlData
 
 
     def __dataExtract(self):
@@ -61,13 +65,17 @@ class Channels:
 
         for address in groupAddressArray:
             try:
-                addressName = address['Name'].replace('.', '_')
+                addressName = address['Name'].replace('.', '_').strip(' ')
                 addressType = self.__dptMapping[address['DPTs'].split('-')[1]]
                 self.__dpt.append(addressType)
                 self.__names.append(addressName)
             except:
                 continue
         self.__makeCommands()
+
+    def getAddresses(self):
+
+        return self.__names
 
 
     def __makeCommands(self):
@@ -91,13 +99,4 @@ class Channels:
 
         return self.__commands
 
-    
-
-
-
-newMqttDriver = Channels()
-
-
-
-newMqttDriver.loadXml()
 
