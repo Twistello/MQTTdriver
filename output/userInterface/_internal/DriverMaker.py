@@ -58,7 +58,7 @@ class Channels:
 
     def __dataExtract(self):
 
-        self.__dptMapping = {'1':'1','5':'3','6':'2','9':'8','17':'10'}
+        self.__dptMapping = {'1':'1','5':'3','6':'2','9':'8','17':'10', '14':'10', '13':'10'}
         self.__dpt = []
         self.__names = []
         groupAddressArray = self.__xmlData
